@@ -51,6 +51,8 @@ public class CharacterMovement : MonoBehaviour
 
                 if (hit.collider.CompareTag("Door"))
                     OnDoorClick(hit.collider.gameObject);
+                if (hit.collider.CompareTag("NPC"))
+                    StartDialogWithNPC(hit.collider.gameObject);
 
                 Vector3 clickedPosition = hit.point;
                 agent.SetDestination(clickedPosition);
@@ -67,5 +69,10 @@ public class CharacterMovement : MonoBehaviour
     void OnDoorClick(GameObject obj)
     {
         transportCharTo = obj.GetComponent<DoorController>();
+    }
+
+    void StartDialogWithNPC(GameObject obj)
+    {
+        obj.GetComponent<DialogTrigger>()?.InitDialog();
     }
 }
