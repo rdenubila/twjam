@@ -16,7 +16,7 @@ MonoBehaviour:
   - label: Ready to confess
     stringId: DIALOG_MAGIC_1_LABEL
     availableIf: 0
-    availableAfter: 0
+    availableAfter: 2
     lines:
     - label: Ready to confess
       stringId: DIALOG_MAGIC_1_LABEL

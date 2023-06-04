@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
 
+    public List<Goals> goalsAchieved = new List<Goals>();
     public List<CharacterInfo> characterList;
     public GameObject[] disableOnStart;
 
@@ -17,4 +18,6 @@ public class GameController : MonoBehaviour
 
     public CharacterInfo GetCharacterByType(Character type) =>
         characterList.Where<CharacterInfo>(character => character.type == type).FirstOrDefault();
+
+    public void AddGoal(Goals newGoal) => goalsAchieved.Add(newGoal);
 }

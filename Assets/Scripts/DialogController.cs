@@ -12,8 +12,10 @@ public class DialogController : MonoBehaviour
     public GameObject dialogPanel;
     public Image charSprite;
     public TMP_Text dialogText;
+    public TMP_Text nameText;
     DialogAsset currentAsset;
-    int iDialog = 0;
+    int iDialogLine = 0;
+    int iDialogOption = 0;
 
     void Start()
     {
@@ -29,15 +31,40 @@ public class DialogController : MonoBehaviour
     {
         currentAsset = asset;
         ShowDialogPanel();
-        iDialog = 0;
-        ShowDialogText(iDialog);
+        iDialogLine = 0;
+        ShowDialogText(iDialogLine);
     }
 
     void ShowDialogText(int i)
     {
-        DialogLines currentLine = currentAsset.dialogOptions[0].lines[iDialog];
+        DialogLines currentLine = currentAsset.dialogOptions[iDialogOption].lines[iDialogLine];
+        CharacterInfo currentChar = gameController.GetCharacterByType(currentLine.character);
+
         dialogText.text = Localization.Get(currentLine.stringId);
-        charSprite.sprite = gameController.GetCharacterByType(currentLine.character).sprite;
+        nameText.text = currentChar.name + "\n<size=80%>" + currentChar.role;
+        charSprite.sprite = currentChar.sprite;
+    }
+
+    public void NextDialogLine()
+    {
+        iDialogLine++;
+        if (iDialogLine < currentAsset.dialogOptions[iDialogOption].lines.Length)
+        {
+            ShowDialogText(iDialogLine);
+        }
+        else
+        {
+            FinishDialog();
+        }
+    }
+
+    void FinishDialog()
+    {
+        DialogFields currentDialog = currentAsset.dialogOptions[iDialogOption];
+        if (currentDialog.availableAfter != Goals.None)
+            gameController.AddGoal(currentDialog.availableAfter);
+
+        HideDialogPanel();
     }
 
 }
