@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -59,8 +60,14 @@ public class CharacterMovement : MonoBehaviour
             if (Physics.Raycast(ray, out hit, 15f, clickableLayers))
             {
 
+                Vector3 clickedPosition = hit.point;
+                agent.SetDestination(clickedPosition);
+
                 if (hit.collider.CompareTag("Door"))
                     OnDoorClick(hit.collider.gameObject);
+
+                if (hit.collider.CompareTag("Piggy"))
+                    FeedPiggy(hit.collider.gameObject);
 
                 if (hit.collider.CompareTag("Item"))
                     grabItem = hit.collider.gameObject.GetComponent<ItemGrab>();
@@ -68,10 +75,19 @@ public class CharacterMovement : MonoBehaviour
                 if (hit.collider.CompareTag("NPC"))
                     StartDialogWithNPC(hit.collider.gameObject);
 
-                Vector3 clickedPosition = hit.point;
-                agent.SetDestination(clickedPosition);
             }
         }
+    }
+
+    public void MoveTo(Vector3 to)
+    {
+        agent.SetDestination(to);
+    }
+
+    private void FeedPiggy(GameObject obj)
+    {
+        PiggyController piggy = obj.GetComponent<PiggyController>();
+        piggy.Feed();
     }
 
     void ResetClickActions()
@@ -84,6 +100,13 @@ public class CharacterMovement : MonoBehaviour
     void OnDoorClick(GameObject obj)
     {
         transportCharTo = obj.GetComponent<DoorController>();
+
+        if (transportCharTo.isLocked)
+        {
+            transportCharTo.EnterDoor(agent);
+            transportCharTo = null;
+            agent.SetDestination(transform.position);
+        }
     }
 
     void StartDialogWithNPC(GameObject obj)

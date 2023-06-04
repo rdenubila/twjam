@@ -11,9 +11,11 @@ public class ItemGrab : MonoBehaviour
     public float minDistance = 3.5f;
     public bool canGrab = true;
     public UnityEvent onTryGrab;
+    private GameController _gc;
 
     void Start()
     {
+        _gc = FindObjectOfType<GameController>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
@@ -34,7 +36,10 @@ public class ItemGrab : MonoBehaviour
         }
         else
         {
+            _gc.ShowNotification("PIGGY_PROTECT_ITEM");
             onTryGrab.Invoke();
         }
     }
+
+    public void SetCanGrab(bool _canGrab) => canGrab = _canGrab;
 }

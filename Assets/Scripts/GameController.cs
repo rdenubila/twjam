@@ -11,7 +11,9 @@ public class GameController : MonoBehaviour
 
     public Transform itemPanel;
     public GameObject itemPrefab;
+    public GameObject portalObj;
     public Notification notification;
+    public Notification itemNotification;
 
     // Start is called before the first frame update
     void Start()
@@ -36,12 +38,17 @@ public class GameController : MonoBehaviour
             case Goals.ItemsHat:
                 AddItem(newGoal);
                 break;
+            case Goals.ActionOpenPortal:
+                portalObj.SetActive(true);
+                break;
         }
     }
 
     private void AddItem(Goals item)
     {
-        Instantiate(itemPrefab).GetComponent<ItemSprite>().InitItem(item, itemPanel);
+        ItemSprite newItem = Instantiate(itemPrefab).GetComponent<ItemSprite>();
+        newItem.InitItem(item, itemPanel);
+        itemNotification.InitNotification(newItem.GetItemByType(item).image);
     }
 
     public void ShowNotification(string stringId)

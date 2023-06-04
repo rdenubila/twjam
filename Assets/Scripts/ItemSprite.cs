@@ -17,7 +17,7 @@ public class ItemSprite : MonoBehaviour
     public List<ItemSpriteMap> itemMap;
     ItemSpriteMap currentItem;
 
-    ItemSpriteMap GetItemByType(Goals type) => itemMap.Where(item => item.type == type).FirstOrDefault();
+    public ItemSpriteMap GetItemByType(Goals type) => itemMap.Where(item => item.type == type).FirstOrDefault();
 
     public void InitItem(Goals type, Transform panel)
     {

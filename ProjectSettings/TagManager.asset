@@ -7,6 +7,7 @@ TagManager:
   - Door
   - NPC
   - Item
+  - Piggy
   layers:
   - Default
   - TransparentFX

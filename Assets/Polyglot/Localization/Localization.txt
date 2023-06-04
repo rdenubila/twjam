@@ -7,9 +7,9 @@ Polyglot	100
 GAME_JAM		Game developed for the 1st Thoughtworks Game Jam with the theme 'Fantasy'					Jogo desenvolvido para a 1ª Game Jam da Thoughtworks com o tema 'Fantasia'																						
 LEAVE_DIALOG		Leave conversation					Deixar a conversa																						
 DIALOG_MAGIC_1_LABEL		Tell me where the man is																											
-DIALOG_MAGIC_1_TXT_1		Just tell me where the man is and we can wrap this up quickly.																											
-DIALOG_MAGIC_1_TXT_2		You can't talk to me like this! This situation is unacceptable!																											
-DIALOG_MAGIC_1_TXT_3		I am the great Owldini, the most brilliant magician this world has ever seen, the one who never made a foul trick in his entire existence.																											
+DIALOG_MAGIC_1_TXT_1		Just tell me where the man is and we can wrap this up quickly.					Só me fala onde tá o cabra que a gente resolve isso aqui rapidinho.																						
+DIALOG_MAGIC_1_TXT_2		You can't talk to me like this! This situation is unacceptable!					Você acha que tá falando com quem? Isso aqui é um absurdo!																						
+DIALOG_MAGIC_1_TXT_3		I am the great Owldini, the most brilliant magician this world has ever seen, the one who never made a foul trick in his entire existence.					Eu sou o grande Owldini, o mágico mais brilhante que esse mundo já conheceu, aquele que nunca fez um truque sujo em toda a sua existência.																						
 DIALOG_MAGIC_1_TXT_4		Still, I'm here being captive like a criminal with no morale! Oh, the horror, the humiliation!																											
 DIALOG_MAGIC_1_TXT_5		Can this absolutely unfair situation be at least softened by giving back my belongings? I really need to feed my bunnies, they are inside my top hat.																											
 DIALOG_MAGIC_2_LABEL		Here's your top hat.																											
@@ -60,6 +60,7 @@ DIALOG_DOORMAN_1_TXT_2		Oh, officer, how kind of you to consider a humble member
 DIALOG_DOORMAN_1_TXT_3		Unfortunately I don't have anything to add, but it's a very sad day indeed for Owlward																											
 DIALOG_DOORMAN_1_TXT_4		Not only we witnessed this tragedy, but that mischievous pig ate my pack of donuts like the wild animal it is.																											
 DIALOG_DOORMAN_1_TXT_5		A very sad day indeed.																											
+DIALOG_DOORMAN_1_TXT_6		But you might find something interesting in the backstage. Here, take the keys.																											
 DIALOG_DOORMAN_2_LABEL		I have a gossip for you.																											
 DIALOG_DOORMAN_2_TXT_1		I have a gossip for you.																											
 DIALOG_DOORMAN_2_TXT_2		OOOOooOOh, that makes me very, very excited!																											
@@ -67,8 +68,11 @@ DIALOG_DOORMAN_2_TXT_3		So Owldini is not the rich, powerful magician it once we
 DIALOG_DOORMAN_2_TXT_4		Uhhh, this is so juicy, I have to tell my friends about it as soon as possible.																											
 DIALOG_DOORMAN_2_TXT_5		I have something to tell you as well, now that we are intimate, informative friends																											
 DIALOG_DOORMAN_2_TXT_6		I saw that girl Jowlana talking with Mr. Owler in the back alley a few days ago, she seemed very excited about some jewelry.																											
-DIALOG_DOORMAN_2_TXT_7		Might be useful for your journey, sir. Also, this might help too.																											
+DIALOG_DOORMAN_2_TXT_7		Might be useful for your journey, sir.																											
 DIALOG_DOORMAN_3_LABEL		Are you interested in some donuts?																											
 DIALOG_DOORMAN_3_TXT_1		Are you interested in some donuts?																											
 DIALOG_DOORMAN_3_TXT_2		That wouldn't be permitted, mister. 																											
 DIALOG_DOORMAN_3_TXT_3		If somebody from this job knows I've been eating food from the backstage, this day would get sadder and sadder.																											
+DOOR_LOCKED		This door is locked																											
+PIGGY_PROTECT_ITEM		Piggy is protecting this item																											
+ITEM_COLLECTED		You collected an item																											
