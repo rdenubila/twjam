@@ -29,7 +29,11 @@ MonoBehaviour:
     format: 1
   - textAsset: {fileID: 4900000, guid: 74e33654c730f9b4eb6efc52d681df8e, type: 3}
     format: 1
-  supportedLanguages: 00000000
+  - textAsset: {fileID: 4900000, guid: 74e33654c730f9b4eb6efc52d681df8e, type: 3}
+    format: 0
+  - textAsset: {fileID: 4900000, guid: c4dc0d059266d8d47862f46460cf8f31, type: 3}
+    format: 0
+  supportedLanguages: 0000000005000000
   selectedLanguage: 0
   fallbackLanguage: 0
   fontOverrides: []

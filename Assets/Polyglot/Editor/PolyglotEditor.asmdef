@@ -1,8 +1,8 @@
 {
     "name": "Polyglot.Editor",
     "references": [
-        "Unity.TextMeshPro",
-        "Polyglot.Scripts"
+        "Polyglot.Scripts",
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [
         "Editor"

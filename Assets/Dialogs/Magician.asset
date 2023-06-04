@@ -21,3 +21,6 @@ MonoBehaviour:
     - label: Ready to confess
       stringId: DIALOG_MAGIC_1_LABEL
       character: 0
+    - label: I did nothing!
+      stringId: "Eu n\xE3o fiz nada!!!"
+      character: 1

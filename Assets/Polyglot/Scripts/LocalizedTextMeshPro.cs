@@ -1,19 +1,18 @@
-﻿#if TMP_PRESENT
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 namespace Polyglot
 {
     [AddComponentMenu("UI/Localized TextMesh Pro", 13)]
-    [RequireComponent(typeof(TextMeshPro))]
-    public class LocalizedTextMeshPro : LocalizedTextComponent<TextMeshPro>
+    [RequireComponent(typeof(TextMeshProUGUI))]
+    public class LocalizedTextMeshProUGUI : LocalizedTextComponent<TextMeshProUGUI>
     {
-        protected override void SetText(TextMeshPro text, string value)
+        protected override void SetText(TextMeshProUGUI text, string value)
         {
             text.text = value;
         }
 
-        protected override void UpdateAlignment(TextMeshPro text, LanguageDirection direction)
+        protected override void UpdateAlignment(TextMeshProUGUI text, LanguageDirection direction)
         {
             if (IsOppositeDirection(text.alignment, direction))
             {
@@ -56,5 +55,3 @@ namespace Polyglot
         }
     }
 }
-
-#endif

@@ -1,10 +1,11 @@
-using System.Collections;
+using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
 
+    public List<CharacterInfo> characterList;
     public GameObject[] disableOnStart;
 
     // Start is called before the first frame update
@@ -14,9 +15,6 @@ public class GameController : MonoBehaviour
             obj.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    public CharacterInfo GetCharacterByType(Character type) =>
+        characterList.Where<CharacterInfo>(character => character.type == type).FirstOrDefault();
 }

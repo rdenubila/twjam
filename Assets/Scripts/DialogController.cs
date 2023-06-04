@@ -8,6 +8,7 @@ using Polyglot;
 
 public class DialogController : MonoBehaviour
 {
+    public GameController gameController;
     public GameObject dialogPanel;
     public Image charSprite;
     public TMP_Text dialogText;
@@ -16,11 +17,13 @@ public class DialogController : MonoBehaviour
 
     void Start()
     {
+        gameController = FindObjectOfType<GameController>();
         HideDialogPanel();
     }
 
     private void HideDialogPanel() => dialogPanel.SetActive(false);
     private void ShowDialogPanel() => dialogPanel.SetActive(true);
+    public bool isDialogVisible() => dialogPanel.activeSelf;
 
     public void InitDialog(DialogAsset asset)
     {
@@ -32,7 +35,9 @@ public class DialogController : MonoBehaviour
 
     void ShowDialogText(int i)
     {
-        dialogText.text = Localization.Get(currentAsset.dialogOptions[0].lines[iDialog].stringId);
+        DialogLines currentLine = currentAsset.dialogOptions[0].lines[iDialog];
+        dialogText.text = Localization.Get(currentLine.stringId);
+        charSprite.sprite = gameController.GetCharacterByType(currentLine.character).sprite;
     }
 
 }

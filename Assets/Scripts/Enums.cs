@@ -9,7 +9,7 @@ public enum Goals
 public enum Character
 {
     Detective,
-    Magic,
+    Magician,
     Assistant,
     Doorman,
     CEO,

@@ -8,22 +8,27 @@ public class CharacterMovement : MonoBehaviour
     private Camera mainCamera;
     private NavMeshAgent agent;
     private Animator anim;
+    private DialogController dialogController;
     [SerializeField] private DoorController transportCharTo;
     [SerializeField] private LayerMask clickableLayers;
 
     void Start()
     {
+        dialogController = FindObjectOfType<DialogController>();
         anim = GetComponentInChildren<Animator>();
         agent = GetComponent<NavMeshAgent>();
         mainCamera = Camera.main;
     }
 
-    // Update is called once per frame
     void Update()
     {
+        if (ShouldFreezeMovement()) return;
+
         MoveCharacter();
         CheckReachedDestination();
     }
+
+    bool ShouldFreezeMovement() => dialogController.isDialogVisible();
 
     void CheckReachedDestination()
     {
