@@ -15,11 +15,20 @@ public class GameController : MonoBehaviour
     public Notification notification;
     public Notification itemNotification;
 
+    public DialogAsset initialDialog;
+
     // Start is called before the first frame update
     void Start()
     {
         foreach (GameObject obj in disableOnStart)
             obj.SetActive(false);
+
+        Invoke("StartInitialDialog", 1.5f);
+    }
+
+    void StartInitialDialog()
+    {
+        FindObjectOfType<DialogController>().InitDialog(initialDialog);
     }
 
     public CharacterInfo GetCharacterByType(Character type) =>

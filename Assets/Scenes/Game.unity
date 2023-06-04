@@ -4934,6 +4934,10 @@ MonoBehaviour:
     name: Martin Owler
     role: CEO
     sprite: {fileID: 21300000, guid: 6cc878f6662513a4087dce2616ea9953, type: 3}
+  - type: 5
+    name: Chief
+    role: Police Station
+    sprite: {fileID: 1723625289, guid: 3c785a7d67684ea4e8ef5a8a9a9415e6, type: 3}
   disableOnStart:
   - {fileID: 1584339203}
   - {fileID: 825231215}
@@ -4941,12 +4945,14 @@ MonoBehaviour:
   - {fileID: 1169842983}
   - {fileID: 1549519731}
   - {fileID: 319750645}
+  - {fileID: 1931781422}
   itemPanel: {fileID: 1416145483}
   itemPrefab: {fileID: 7335629531107656877, guid: 9a78aac4effa29144baddc9c7b0bb04b,
     type: 3}
   portalObj: {fileID: 1931781422}
   notification: {fileID: 1549519735}
   itemNotification: {fileID: 319750647}
+  initialDialog: {fileID: 11400000, guid: 412fb48e5159a584296bca50ebb9554e, type: 2}
 --- !u!114 &1066891682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5621,7 +5627,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269344210}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.04, y: 0, z: 1.41}
+  m_LocalPosition: {x: -2.04, y: 0, z: 5.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

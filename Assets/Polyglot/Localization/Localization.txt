@@ -6,6 +6,17 @@ LANGUAGE_DIRECTION	ltr or rtl (text direction used by game code)	ltr	ltr	ltr	ltr
 Polyglot	100																												
 GAME_JAM		Game developed for the 1st Thoughtworks Game Jam with the theme 'Fantasy'					Jogo desenvolvido para a 1ª Game Jam da Thoughtworks com o tema 'Fantasia'																						
 LEAVE_DIALOG		Leave conversation					Deixar a conversa																						
+DIALOG_CHIEF_1_LABEL		Answer phone																											
+DIALOG_CHIEF_1_TXT_1		Mr. Owlmes, it's time to get back in action.																											
+DIALOG_CHIEF_1_TXT_2		I need you to solve a new case about the disappearance of Martin Owler																											
+DIALOG_CHIEF_1_TXT_3		you probably heard about him																											
+DIALOG_CHIEF_1_TXT_4		and I need it fast, the whole town is a big mess right now.																											
+DIALOG_CHIEF_1_TXT_5		I'm pretty sure it's going to be as easy as flying, but here is some info:																											
+DIALOG_CHIEF_1_TXT_6		there was a magic show happening in the theater when Marty-fly volunteered for a trick.																											
+DIALOG_CHIEF_1_TXT_7		He was supposed to disappear and then appear again																											
+DIALOG_CHIEF_1_TXT_8		But, to the astonishment of the magician himself and his crowd, the man was replaced by a very weird looking pig																											
+DIALOG_CHIEF_1_TXT_9		There is something rotten about this, but I know you can handle it, Sher.																											
+DIALOG_CHIEF_1_TXT_10		Try to be professional, okay?																											
 DIALOG_MAGIC_1_LABEL		Tell me where the man is																											
 DIALOG_MAGIC_1_TXT_1		Just tell me where the man is and we can wrap this up quickly.					Só me fala onde tá o cabra que a gente resolve isso aqui rapidinho.																						
 DIALOG_MAGIC_1_TXT_2		You can't talk to me like this! This situation is unacceptable!					Você acha que tá falando com quem? Isso aqui é um absurdo!																						

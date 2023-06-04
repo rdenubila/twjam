@@ -20,4 +20,5 @@ public enum Character
     Assistant,
     Doorman,
     CEO,
+    Chief,
 }
