@@ -10,69 +10,87 @@ DIALOG_MAGIC_1_LABEL		Tell me where the man is
 DIALOG_MAGIC_1_TXT_1		Just tell me where the man is and we can wrap this up quickly.					Só me fala onde tá o cabra que a gente resolve isso aqui rapidinho.																						
 DIALOG_MAGIC_1_TXT_2		You can't talk to me like this! This situation is unacceptable!					Você acha que tá falando com quem? Isso aqui é um absurdo!																						
 DIALOG_MAGIC_1_TXT_3		I am the great Owldini, the most brilliant magician this world has ever seen, the one who never made a foul trick in his entire existence.					Eu sou o grande Owldini, o mágico mais brilhante que esse mundo já conheceu, aquele que nunca fez um truque sujo em toda a sua existência.																						
-DIALOG_MAGIC_1_TXT_4		Still, I'm here being captive like a criminal with no morale! Oh, the horror, the humiliation!																											
-DIALOG_MAGIC_1_TXT_5		Can this absolutely unfair situation be at least softened by giving back my belongings? I really need to feed my bunnies, they are inside my top hat.																											
-DIALOG_MAGIC_2_LABEL		Here's your top hat.																											
-DIALOG_MAGIC_2_TXT_1		Here's your top hat. Can you help now?																											
-DIALOG_MAGIC_2_TXT_2		It's pointless, I did this spell a thousand times and it never behaved like this.																											
-DIALOG_MAGIC_2_TXT_3		 I wish I knew how to help you, but there are more secrets on this case that escape my once bright perception.																											
-DIALOG_MAGIC_2_TXT_4		At least the bunnies can eat now, tho.																											
-DIALOG_MAGIC_3_LABEL		Your assistant pulled the trick on you																											
-DIALOG_MAGIC_3_TXT_1		So, turns out your assistant pulled the trick on you, great Owldini.																											
-DIALOG_MAGIC_3_TXT_2		She altered the magical coordinates of the spell? Oh, that girl is a hazard.																											
-DIALOG_MAGIC_3_TXT_3		Oh, that girl is a hazard.																											
-DIALOG_MAGIC_3_TXT_4		But we might be able to find the man after all. I just need to do a little bit of this…																											
-DIALOG_MAGIC_3_TXT_5		And then that… 																											
-DIALOG_MAGIC_3_TXT_6		And maybe some of this too.																											
-DIALOG_MAGIC_3_TXT_7		Ohhh, I think it's working, I can open a portal for you to meet the one who was once lost!																											
-DIALOG_MAGIC_3_TXT_8		How powerful I am, hohohoho! There it goes!																											
-DIALOG_MAGIC_4_LABEL		Do you want some donuts?																											
-DIALOG_MAGIC_4_TXT_1		How could I possibly eat in this situation, officer?																											
-DIALOG_MAGIC_4_TXT_2		Also, high levels of sugar make me really gassy, and I don't think you would like that.																											
-DIALOG_ASSIST_1_LABEL		Tell me what you know																											
-DIALOG_ASSIST_1_TXT_1		Can you tell me what you know about the disappearance?																											
-DIALOG_ASSIST_1_TXT_2		I told everybody here a lot of times, I know nothing!																											
-DIALOG_ASSIST_1_TXT_3		The only thing I know is that Owldini is a fragile old geezer that's been decaying for years now.																											
-DIALOG_ASSIST_1_TXT_4		He doesn't even pay my salary! I know, right?																											
-DIALOG_ASSIST_1_TXT_5		If Owlward knew about this, his reputation would be ruined like a wooden house under a hurricane. So this whole situation isn't surprising at all.																											
-DIALOG_ASSIST_2_LABEL		Those are some beautiful earrings																											
-DIALOG_ASSIST_2_TXT_1		Those are some beautiful, expensive earrings you're wearing.																											
-DIALOG_ASSIST_2_TXT_2		Oh, I'm so glad you noticed, hohoho																											
-DIALOG_ASSIST_2_TXT_3		I didn't expect that a man of the law would have such a refined perception of a woman's jewelry.																											
-DIALOG_ASSIST_2_TXT_4		It was a present from a very dedicated fan.																											
-DIALOG_ASSIST_3_LABEL		Owlward told me everything																											
-DIALOG_ASSIST_3_TXT_1		Owlward told me everything about Martin, Jowlana.																											
-DIALOG_ASSIST_3_TXT_2		Oh, that whisperous, good-for-nothing chicken!																											
-DIALOG_ASSIST_3_TXT_3		I should have known he would be lurking around.																											
-DIALOG_ASSIST_3_TXT_4		Well, there you have it. I have bills to pay and Owldini never really gave the value that I, as a wonderful artist, deserved.																											
-DIALOG_ASSIST_3_TXT_5		Now Martin, he is so handsome and wonderful, makes me feel like the real deal…																											
-DIALOG_ASSIST_3_TXT_6		*jewelry drops and breaks*																											
-DIALOG_ASSIST_3_TXT_7		Huh? What??? It's a fake? Oh god, men are the worst!																											
-DIALOG_ASSIST_3_TXT_8		Now it's a matter of honor that you find that pig, and I don't mean the cute hungry one! I've changed the magical coordinates of Owldini's spell, that's why he never came back.																											
-DIALOG_ASSIST_3_TXT_9		Here are the real ones…																											
-DIALOG_ASSIST_4_LABEL		Would you like some donuts?																											
-DIALOG_ASSIST_4_TXT_1		Would you like some donuts?																											
-DIALOG_ASSIST_4_TXT_2		Oh Mr.Owlmes, you really know how to be tempting to a girl. 																											
-DIALOG_ASSIST_4_TXT_3		I can't accept it, I am on a moon diet for four weeks now.																											
-DIALOG_DOORMAN_1_LABEL		Did you see something suspicious?																											
-DIALOG_DOORMAN_1_TXT_1		Did you see something suspicious around here, Owlward?																											
-DIALOG_DOORMAN_1_TXT_2		Oh, officer, how kind of you to consider a humble member of the working class in your investigation.																											
-DIALOG_DOORMAN_1_TXT_3		Unfortunately I don't have anything to add, but it's a very sad day indeed for Owlward																											
-DIALOG_DOORMAN_1_TXT_4		Not only we witnessed this tragedy, but that mischievous pig ate my pack of donuts like the wild animal it is.																											
-DIALOG_DOORMAN_1_TXT_5		A very sad day indeed.																											
-DIALOG_DOORMAN_1_TXT_6		But you might find something interesting in the backstage. Here, take the keys.																											
-DIALOG_DOORMAN_2_LABEL		I have a gossip for you.																											
-DIALOG_DOORMAN_2_TXT_1		I have a gossip for you.																											
-DIALOG_DOORMAN_2_TXT_2		OOOOooOOh, that makes me very, very excited!																											
-DIALOG_DOORMAN_2_TXT_3		So Owldini is not the rich, powerful magician it once were, huh?																											
-DIALOG_DOORMAN_2_TXT_4		Uhhh, this is so juicy, I have to tell my friends about it as soon as possible.																											
-DIALOG_DOORMAN_2_TXT_5		I have something to tell you as well, now that we are intimate, informative friends																											
-DIALOG_DOORMAN_2_TXT_6		I saw that girl Jowlana talking with Mr. Owler in the back alley a few days ago, she seemed very excited about some jewelry.																											
-DIALOG_DOORMAN_2_TXT_7		Might be useful for your journey, sir.																											
-DIALOG_DOORMAN_3_LABEL		Are you interested in some donuts?																											
-DIALOG_DOORMAN_3_TXT_1		Are you interested in some donuts?																											
-DIALOG_DOORMAN_3_TXT_2		That wouldn't be permitted, mister. 																											
-DIALOG_DOORMAN_3_TXT_3		If somebody from this job knows I've been eating food from the backstage, this day would get sadder and sadder.																											
-DOOR_LOCKED		This door is locked																											
-PIGGY_PROTECT_ITEM		Piggy is protecting this item																											
-ITEM_COLLECTED		You collected an item																											
+DIALOG_MAGIC_1_TXT_4		Still, I'm here being captive like a criminal with no morale! Oh, the horror, the humiliation!					Ainda assim, estou aqui sendo tratado como um criminoso de terceira. Horroroso! Humilhante!																						
+DIALOG_MAGIC_1_TXT_5		Can this absolutely unfair situation be at least softened by giving back my belongings? I really need to feed my bunnies, they are inside my top hat.					Será que essa situação absolutamente injusta poderia ser amenizada com vocês me dando meus pertences? Eu preciso dar comida pros meus coelhinhos, eles estão dentro da minha cartola.																						
+DIALOG_MAGIC_2_LABEL		Here's your top hat.					Tá aqui a cartola.																						
+DIALOG_MAGIC_2_TXT_1		Here's your top hat. Can you help now?					Tá aqui a cartola. Vai ajudar agora?																						
+DIALOG_MAGIC_2_TXT_2		It's pointless, I did this spell a thousand times and it never behaved like this.					Não adianta, eu já conjurei esse feitiço inúmeras vezes e esse nunca foi o resultado.																						
+DIALOG_MAGIC_2_TXT_3		 I wish I knew how to help you, but there are more secrets on this case that escape my once bright perception.					Eu queria conseguir ajudar você, mas ainda existem mistérios nesse caso que escapam da minha percepção que um dia foi brilhante.																						
+DIALOG_MAGIC_2_TXT_4		At least the bunnies can eat now, tho.					Mas pelo menos os coelhinhos não vão mais passar fome.																						
+DIALOG_MAGIC_3_LABEL		Your assistant pulled the trick on you					Tua assistente te passou a perna.																						
+DIALOG_MAGIC_3_TXT_1		So, turns out your assistant pulled the trick on you, great Owldini.					A tua assistente te passou a perna, velhote.																						
+DIALOG_MAGIC_3_TXT_2		She altered the magical coordinates of the spell? Oh, that girl is a hazard.					Ela alterou as coordenadas mágicas do feitiço? Essa mulher é uma ameaça nacional.																						
+DIALOG_MAGIC_3_TXT_3		Oh, that girl is a hazard.					Essa mulher é uma ameaça nacional.																						
+DIALOG_MAGIC_3_TXT_4		But we might be able to find the man after all. I just need to do a little bit of this…					Mas talvez a gente consiga achar o cara, no fim. Eu só preciso fazer um pouquinho disso aqui…																						
+DIALOG_MAGIC_3_TXT_5		And then that… 					E um pouco daquilo…																						
+DIALOG_MAGIC_3_TXT_6		And maybe some of this too.					Hum, talvez um tanto disso aqui também.																						
+DIALOG_MAGIC_3_TXT_7		Ohhh, I think it's working, I can open a portal for you to meet the one who was once lost!					Aaaah, tá funcionando, eu posso abrir o portal para que você encontre aquele que um dia se perdeu.																						
+DIALOG_MAGIC_3_TXT_8		How powerful I am, hohohoho! There it goes!					Não é impressionante o quanto eu sou poderoso? Hahahaha. Agora vai!																						
+DIALOG_MAGIC_4_LABEL		Do you want some donuts?					Vai um docinho aí?																						
+DIALOG_MAGIC_4_TXT_1		How could I possibly eat in this situation, officer?					Como é que eu vou comer numa situação dessa, seu policial?																						
+DIALOG_MAGIC_4_TXT_2		Also, high levels of sugar make me really gassy, and I don't think you would like that.					Além disso, açúcar demais faz eu ter muitos gases, que é algo que eu tenho certeza que o senhor não quer.																						
+DIALOG_ASSIST_1_LABEL		Tell me what you know					Me diga o que sabe																						
+DIALOG_ASSIST_1_TXT_1		Can you tell me what you know about the disappearance?					Você pode me contar o que sabe sobre o desaparecimento?																						
+DIALOG_ASSIST_1_TXT_2		I told everybody here a lot of times, I know nothing!					Eu já falei pra todo mundo aqui um milhão de vezes, eu não tô sabendo de nada!																						
+DIALOG_ASSIST_1_TXT_3		The only thing I know is that Owldini is a fragile old geezer that's been decaying for years now.					A única coisa que eu sei é que o Owldini é um velho decrépito faz um tempo já.																						
+DIALOG_ASSIST_1_TXT_4		He doesn't even pay my salary! I know, right?					Nem pra pagar o meu salário, sabe?																						
+DIALOG_ASSIST_1_TXT_5		If Owlward knew about this, his reputation would be ruined like a wooden house under a hurricane. So this whole situation isn't surprising at all.					Se o fofoqueiro do Owlward soubesse disso, a reputação dele ia de arrasta pra cima em alguns minutos. Então toda essa situ não me surpreende nem um pouco.																						
+DIALOG_ASSIST_2_LABEL		Those are some beautiful earrings					Que brincos chiques!																						
+DIALOG_ASSIST_2_TXT_1		Those are some beautiful, expensive earrings you're wearing.					Que brincos chiques! Devem ter sido caros, né?																						
+DIALOG_ASSIST_2_TXT_2		Oh, I'm so glad you noticed, hohoho					Não é mesmo? Hohoho.																						
+DIALOG_ASSIST_2_TXT_3		I didn't expect that a man of the law would have such a refined perception of a woman's jewelry.					Não esperava que um homem da lei como você prestaria atenção nas joias de uma moça.																						
+DIALOG_ASSIST_2_TXT_4		It was a present from a very dedicated fan.					Eles foram presente de um fã apaixonado.																						
+DIALOG_ASSIST_3_LABEL		Owlward told me everything					O Owlward colocou a boca no trombone																						
+DIALOG_ASSIST_3_TXT_1		Owlward told me everything about Martin, Jowlana.					O Owlard colocou a boca no trombone sobre o seu lance com o Martin, Jowlana.																						
+DIALOG_ASSIST_3_TXT_2		Oh, that whisperous, good-for-nothing chicken!					Ah, aquela galinha mexeriqueira e imprestável!																						
+DIALOG_ASSIST_3_TXT_3		I should have known he would be lurking around.					Eu devia saber que ele estaria bisbilhotando pelos cantos.																						
+DIALOG_ASSIST_3_TXT_4		Well, there you have it. I have bills to pay and Owldini never really gave the value that I, as a wonderful artist, deserved.					Bom, é isso aí. Os boletos tão vencendo e o Owldini nunca valorizou a artista impecável que eu sou.																						
+DIALOG_ASSIST_3_TXT_5		Now Martin, he is so handsome and wonderful, makes me feel like the real deal…					Agora o Martin, ele é tão lindo e maravilhoso, faz eu me sentir uma mulher de verdade…																						
+DIALOG_ASSIST_3_TXT_6		*jewelry drops and breaks*					*Joia cai e quebra*																						
+DIALOG_ASSIST_3_TXT_7		Huh? What??? It's a fake? Oh god, men are the worst!					O que? Como assim??? Era falsa? Misericórdia, não dá pra confiar em homem mesmo, né?																						
+DIALOG_ASSIST_3_TXT_8		Now it's a matter of honor that you find that pig, and I don't mean the cute hungry one! I've changed the magical coordinates of Owldini's spell, that's why he never came back.					Agora eu vou até o inferno pra que você encontre esse porco, e não estou falando daquele fofinho esfomeado que está no teatro. Eu mudei as coordenadas mágicas do feitiço do Owldini, foi por isso que ele nunca voltou.																						
+DIALOG_ASSIST_3_TXT_9		Here are the real ones…					Toma aqui as coordenadas de verdade…																						
+DIALOG_ASSIST_4_LABEL		Would you like some donuts?					Aceita um donut?																						
+DIALOG_ASSIST_4_TXT_1		Would you like some donuts?					Aceita um donut?																						
+DIALOG_ASSIST_4_TXT_2		Oh Mr.Owlmes, you really know how to be tempting to a girl. 					Pô seu Owlmes, aí você quer me fazer cair em tentação.																						
+DIALOG_ASSIST_4_TXT_3		I can't accept it, I am on a moon diet for four weeks now.					Não posso aceitar, já tô na dieta da lua faz quatro semanas.																						
+DIALOG_DOORMAN_1_LABEL		Did you see something suspicious?					Você viu algo de suspeito?																						
+DIALOG_DOORMAN_1_TXT_1		Did you see something suspicious around here, Owlward?					Você viu alguma coisa suspeita nos arredores, Owlward?																						
+DIALOG_DOORMAN_1_TXT_2		Oh, officer, how kind of you to consider a humble member of the working class in your investigation.					Ah, seu polícia, que honra você considerar um mero membro da classe trabalhadora na sua investigação.																						
+DIALOG_DOORMAN_1_TXT_3		Unfortunately I don't have anything to add, but it's a very sad day indeed for Owlward					Infelizmente não tenho nada a acrescentar, mas hoje é um dia muito triste pro Owlward.																						
+DIALOG_DOORMAN_1_TXT_4		Not only we witnessed this tragedy, but that mischievous pig ate my pack of donuts like the wild animal it is.					Não só a gente viu essa tragédia, mas aquele porco maligno comeu meu pacote de donuts como o animal selvagem que é.																						
+DIALOG_DOORMAN_1_TXT_5		A very sad day indeed.					Um dia muito triste meeesmo.																						
+DIALOG_DOORMAN_1_TXT_6		But you might find something interesting in the backstage. Here, take the keys.					Mas você pode encontrar alguma coisa interessante no camarim. Aqui, toma as chaves.																						
+DIALOG_DOORMAN_2_LABEL		I have a gossip for you.					Tenho uma fofoca quentinha.																						
+DIALOG_DOORMAN_2_TXT_1		I have a gossip for you.					Tenho uma fofoca quentinha.																						
+DIALOG_DOORMAN_2_TXT_2		OOOOooOOh, that makes me very, very excited!					ÊPA, isso me deixa animadasso!!!																						
+DIALOG_DOORMAN_2_TXT_3		So Owldini is not the rich, powerful magician it once were, huh?					Então quer dizer que o Owldini é um velho falido e inadimplente hoje em dia, hein?																						
+DIALOG_DOORMAN_2_TXT_4		Uhhh, this is so juicy, I have to tell my friends about it as soon as possible.					Babado e confusão! Tenho que contar pras minhas amigas imediatamente.																						
+DIALOG_DOORMAN_2_TXT_5		I have something to tell you as well, now that we are intimate, informative friends					Mas antes disso, eu tenho um presentinho pra você também, já que agora somos íntimos e besties:																						
+DIALOG_DOORMAN_2_TXT_6		I saw that girl Jowlana talking with Mr. Owler in the back alley a few days ago, she seemed very excited about some jewelry.					Eu vi a doida da Jowlana no beco de trás falando com o seu Owler faz uns dias. Ela tava toda animadinha por causa de umas joias.																						
+DIALOG_DOORMAN_2_TXT_7		Might be useful for your journey, sir.					Não sei, vai que é útil pro senhor, né?																						
+DIALOG_DOORMAN_3_LABEL		Are you interested in some donuts?					Tá afim de um donut?																						
+DIALOG_DOORMAN_3_TXT_1		Are you interested in some donuts?					Tá afim de um donut?																						
+DIALOG_DOORMAN_3_TXT_2		That wouldn't be permitted, mister. 					Isso é contra as regras, dotô.																						
+ITEM_COLLECTED		You've collected an item																											
+DIALOG_CEO_1_LABEL		Finally I've found you.																											
+DIALOG_CEO_1_TXT_1		Finally I've found you. What the heck?																											
+DIALOG_CEO_1_TXT_2		Hello, Mr. Owlmes, it's unfortunate that we had to meet in such conditions.																											
+DIALOG_CEO_1_TXT_3		I know I probably gave you a lot of work to do, but I just needed some rest from my very demanding job and this was the perfect opportunity to do it.																											
+DIALOG_CEO_1_TXT_4		I feel the energy of a spiritual calling, living with my little piggies have been the most revealing time I've ever had.																											
+DIALOG_CEO_1_TXT_5		This place is so peaceful, I think I'm experiencing what people call the ego death. Pretty awesome, huh?																											
+DIALOG_CEO_2_LABEL		I'm gonna have to take you back																											
+DIALOG_CEO_2_TXT_1		Everybody is looking for you, I'm gonna have to take you back.																											
+DIALOG_CEO_2_TXT_2		Well, I confess it makes me a little emotional to know that people actually miss me.																											
+DIALOG_CEO_2_TXT_3		My life is always so gray and busy, I really don't know what love is anymore.																											
+DIALOG_CEO_2_TXT_4		Nothing that a speedo and some snaring wouldn't fix, apparently, right?																											
+DIALOG_CEO_2_TXT_5		The universe is always trying to put everything in its place.																											
+DIALOG_CEO_2_TXT_6		But okay, your aura is so clean that it convinced me, I'm coming back with you.																											
+DIALOG_CEO_3_LABEL		I'm going to stay here with you																											
+DIALOG_CEO_3_TXT_1		I think I'm going to stay here with you																											
+DIALOG_CEO_3_TXT_2		Then it's settled, prepare yourself to be the new siddhartha, Mr. Owlmes																											
+DIALOG_CEO_3_TXT_3		As we walk through the train of enlightenment and in the meantime, we also feed this hungry pigs with some very disgusting swill.																											
+DIALOG_CEO_3_TXT_4		Welcome aboard!																											
+DIALOG_DOORMAN_3_TXT_3		If somebody from this job knows I've been eating food from the backstage, this day would get sadder and sadder.					Se alguém da diretoria souber que eu tô comendo comida do camarim, esse dia ficaria pior do que já tá.																						
+DOOR_LOCKED		This door is locked					A porta está trancada																						
+PIGGY_PROTECT_ITEM		Piggy is protecting this item					O porquinho está protegendo este item																						

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05321d6f5992f754a9d9388915fcb9a1, type: 3}
+  m_Name: CEO
+  m_EditorClassIdentifier: 
+  dialogOptions:
+  - label: Finally I've found you.
+    stringId: DIALOG_CEO_1_LABEL
+    availableIf: 0
+    unavailableIf: 8
+    availableAfter: 8
+    lines:
+    - label: 
+      stringId: DIALOG_CEO_1_TXT_1
+      character: 0
+    - label: 
+      stringId: DIALOG_CEO_1_TXT_2
+      character: 4
+    - label: 
+      stringId: DIALOG_CEO_1_TXT_3
+      character: 4
+    - label: 
+      stringId: DIALOG_CEO_1_TXT_4
+      character: 4
+    - label: 
+      stringId: DIALOG_CEO_1_TXT_5
+      character: 4
+  - label: I'm gonna have to take you back
+    stringId: DIALOG_CEO_2_LABEL
+    availableIf: 8
+    unavailableIf: 0
+    availableAfter: 9
+    lines:
+    - label: 
+      stringId: DIALOG_CEO_2_TXT_1
+      character: 0
+    - label: 
+      stringId: DIALOG_CEO_2_TXT_2
+      character: 4
+    - label: 
+      stringId: DIALOG_CEO_2_TXT_3
+      character: 4
+    - label: 
+      stringId: DIALOG_CEO_2_TXT_4
+      character: 4
+    - label: 
+      stringId: DIALOG_CEO_2_TXT_5
+      character: 4
+    - label: 
+      stringId: DIALOG_CEO_2_TXT_6
+      character: 4
+  - label: I'm going to stay here with you
+    stringId: DIALOG_CEO_3_LABEL
+    availableIf: 8
+    unavailableIf: 0
+    availableAfter: 10
+    lines:
+    - label: 
+      stringId: DIALOG_CEO_3_TXT_1
+      character: 0
+    - label: 
+      stringId: DIALOG_CEO_3_TXT_2
+      character: 4
+    - label: 
+      stringId: DIALOG_CEO_3_TXT_3
+      character: 4
+    - label: 
+      stringId: DIALOG_CEO_3_TXT_4
+      character: 4

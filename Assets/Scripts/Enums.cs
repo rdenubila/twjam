@@ -7,7 +7,10 @@ public enum Goals
     DialogAssistantConfess,
     DialogAssistantComplain,
     DialogDoormanGossip,
-    ActionOpenPortal
+    ActionOpenPortal,
+    DialogFoundCEO,
+    EndGameGoBack,
+    EndGameStay,
 }
 
 public enum Character
