@@ -13,27 +13,87 @@ MonoBehaviour:
   m_Name: Magician
   m_EditorClassIdentifier: 
   dialogOptions:
-  - label: Ready to confess
+  - label: Tell me where the man is
     stringId: DIALOG_MAGIC_1_LABEL
     availableIf: 0
-    unavailableIf: 2
-    availableAfter: 2
+    unavailableIf: 4
+    availableAfter: 0
     lines:
-    - label: Ready to confess
-      stringId: DIALOG_MAGIC_1_LABEL
+    - label: 
+      stringId: DIALOG_MAGIC_1_TXT_1
       character: 0
-    - label: I did nothing!
-      stringId: "Eu n\xE3o fiz nada!!!"
+    - label: 
+      stringId: DIALOG_MAGIC_1_TXT_2
       character: 1
-  - label: I have donuts
+    - label: 
+      stringId: DIALOG_MAGIC_1_TXT_3
+      character: 1
+    - label: 
+      stringId: DIALOG_MAGIC_1_TXT_4
+      character: 1
+    - label: 
+      stringId: DIALOG_MAGIC_1_TXT_5
+      character: 1
+  - label: Here's your top hat.
     stringId: DIALOG_MAGIC_2_LABEL
+    availableIf: 3
+    unavailableIf: 0
+    availableAfter: 0
+    lines:
+    - label: 
+      stringId: DIALOG_MAGIC_2_TXT_1
+      character: 0
+    - label: 
+      stringId: DIALOG_MAGIC_2_TXT_2
+      character: 1
+    - label: 
+      stringId: DIALOG_MAGIC_2_TXT_3
+      character: 1
+    - label: 
+      stringId: DIALOG_MAGIC_2_TXT_4
+      character: 1
+  - label: Your assistant pulled the trick on you
+    stringId: DIALOG_MAGIC_3_LABEL
+    availableIf: 4
+    unavailableIf: 0
+    availableAfter: 7
+    lines:
+    - label: 
+      stringId: DIALOG_MAGIC_3_TXT_1
+      character: 0
+    - label: 
+      stringId: DIALOG_MAGIC_3_TXT_2
+      character: 1
+    - label: 
+      stringId: DIALOG_MAGIC_3_TXT_3
+      character: 1
+    - label: 
+      stringId: DIALOG_MAGIC_3_TXT_4
+      character: 1
+    - label: 
+      stringId: DIALOG_MAGIC_3_TXT_5
+      character: 1
+    - label: 
+      stringId: DIALOG_MAGIC_3_TXT_6
+      character: 1
+    - label: 
+      stringId: DIALOG_MAGIC_3_TXT_7
+      character: 1
+    - label: 
+      stringId: DIALOG_MAGIC_3_TXT_8
+      character: 1
+  - label: Do you want some donuts?
+    stringId: DIALOG_MAGIC_4_LABEL
     availableIf: 2
     unavailableIf: 0
     availableAfter: 0
     lines:
-    - label: I have donuts
-      stringId: I have donuts
+    - label: 
+      stringId: DIALOG_MAGIC_4_LABEL
       character: 0
-    - label: Good for you!
-      stringId: "Bom pra voc\xEA!"
+    - label: 
+      stringId: DIALOG_MAGIC_4_TXT_1
+      character: 1
+    - label: 
+      stringId: DIALOG_MAGIC_4_TXT_2
       character: 1

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ItemGrab : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class ItemGrab : MonoBehaviour
     public GameObject interactIcon;
     private Transform player;
     public float minDistance = 3.5f;
+    public bool canGrab = true;
+    public UnityEvent onTryGrab;
 
     void Start()
     {
@@ -24,7 +27,14 @@ public class ItemGrab : MonoBehaviour
 
     public void GrabItem()
     {
-        FindObjectOfType<GameController>().AddGoal(type);
-        Destroy(gameObject);
+        if (canGrab)
+        {
+            FindObjectOfType<GameController>().AddGoal(type);
+            Destroy(gameObject);
+        }
+        else
+        {
+            onTryGrab.Invoke();
+        }
     }
 }

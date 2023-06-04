@@ -5,5 +5,70 @@ LANGUAGE_DIRECTION	ltr or rtl (text direction used by game code)	ltr	ltr	ltr	ltr
 																													
 Polyglot	100																												
 GAME_JAM		Game developed for the 1st Thoughtworks Game Jam with the theme 'Fantasy'					Jogo desenvolvido para a 1ª Game Jam da Thoughtworks com o tema 'Fantasia'																						
-LEAVE_DIALOG		Leave conversation																											
-DIALOG_MAGIC_1_LABEL		Você já está pronto para confessar?																											
+LEAVE_DIALOG		Leave conversation					Deixar a conversa																						
+DIALOG_MAGIC_1_LABEL		Tell me where the man is																											
+DIALOG_MAGIC_1_TXT_1		Just tell me where the man is and we can wrap this up quickly.																											
+DIALOG_MAGIC_1_TXT_2		You can't talk to me like this! This situation is unacceptable!																											
+DIALOG_MAGIC_1_TXT_3		I am the great Owldini, the most brilliant magician this world has ever seen, the one who never made a foul trick in his entire existence.																											
+DIALOG_MAGIC_1_TXT_4		Still, I'm here being captive like a criminal with no morale! Oh, the horror, the humiliation!																											
+DIALOG_MAGIC_1_TXT_5		Can this absolutely unfair situation be at least softened by giving back my belongings? I really need to feed my bunnies, they are inside my top hat.																											
+DIALOG_MAGIC_2_LABEL		Here's your top hat.																											
+DIALOG_MAGIC_2_TXT_1		Here's your top hat. Can you help now?																											
+DIALOG_MAGIC_2_TXT_2		It's pointless, I did this spell a thousand times and it never behaved like this.																											
+DIALOG_MAGIC_2_TXT_3		 I wish I knew how to help you, but there are more secrets on this case that escape my once bright perception.																											
+DIALOG_MAGIC_2_TXT_4		At least the bunnies can eat now, tho.																											
+DIALOG_MAGIC_3_LABEL		Your assistant pulled the trick on you																											
+DIALOG_MAGIC_3_TXT_1		So, turns out your assistant pulled the trick on you, great Owldini.																											
+DIALOG_MAGIC_3_TXT_2		She altered the magical coordinates of the spell? Oh, that girl is a hazard.																											
+DIALOG_MAGIC_3_TXT_3		Oh, that girl is a hazard.																											
+DIALOG_MAGIC_3_TXT_4		But we might be able to find the man after all. I just need to do a little bit of this…																											
+DIALOG_MAGIC_3_TXT_5		And then that… 																											
+DIALOG_MAGIC_3_TXT_6		And maybe some of this too.																											
+DIALOG_MAGIC_3_TXT_7		Ohhh, I think it's working, I can open a portal for you to meet the one who was once lost!																											
+DIALOG_MAGIC_3_TXT_8		How powerful I am, hohohoho! There it goes!																											
+DIALOG_MAGIC_4_LABEL		Do you want some donuts?																											
+DIALOG_MAGIC_4_TXT_1		How could I possibly eat in this situation, officer?																											
+DIALOG_MAGIC_4_TXT_2		Also, high levels of sugar make me really gassy, and I don't think you would like that.																											
+DIALOG_ASSIST_1_LABEL		Tell me what you know																											
+DIALOG_ASSIST_1_TXT_1		Can you tell me what you know about the disappearance?																											
+DIALOG_ASSIST_1_TXT_2		I told everybody here a lot of times, I know nothing!																											
+DIALOG_ASSIST_1_TXT_3		The only thing I know is that Owldini is a fragile old geezer that's been decaying for years now.																											
+DIALOG_ASSIST_1_TXT_4		He doesn't even pay my salary! I know, right?																											
+DIALOG_ASSIST_1_TXT_5		If Owlward knew about this, his reputation would be ruined like a wooden house under a hurricane. So this whole situation isn't surprising at all.																											
+DIALOG_ASSIST_2_LABEL		Those are some beautiful earrings																											
+DIALOG_ASSIST_2_TXT_1		Those are some beautiful, expensive earrings you're wearing.																											
+DIALOG_ASSIST_2_TXT_2		Oh, I'm so glad you noticed, hohoho																											
+DIALOG_ASSIST_2_TXT_3		I didn't expect that a man of the law would have such a refined perception of a woman's jewelry.																											
+DIALOG_ASSIST_2_TXT_4		It was a present from a very dedicated fan.																											
+DIALOG_ASSIST_3_LABEL		Owlward told me everything																											
+DIALOG_ASSIST_3_TXT_1		Owlward told me everything about Martin, Jowlana.																											
+DIALOG_ASSIST_3_TXT_2		Oh, that whisperous, good-for-nothing chicken!																											
+DIALOG_ASSIST_3_TXT_3		I should have known he would be lurking around.																											
+DIALOG_ASSIST_3_TXT_4		Well, there you have it. I have bills to pay and Owldini never really gave the value that I, as a wonderful artist, deserved.																											
+DIALOG_ASSIST_3_TXT_5		Now Martin, he is so handsome and wonderful, makes me feel like the real deal…																											
+DIALOG_ASSIST_3_TXT_6		*jewelry drops and breaks*																											
+DIALOG_ASSIST_3_TXT_7		Huh? What??? It's a fake? Oh god, men are the worst!																											
+DIALOG_ASSIST_3_TXT_8		Now it's a matter of honor that you find that pig, and I don't mean the cute hungry one! I've changed the magical coordinates of Owldini's spell, that's why he never came back.																											
+DIALOG_ASSIST_3_TXT_9		Here are the real ones…																											
+DIALOG_ASSIST_4_LABEL		Would you like some donuts?																											
+DIALOG_ASSIST_4_TXT_1		Would you like some donuts?																											
+DIALOG_ASSIST_4_TXT_2		Oh Mr.Owlmes, you really know how to be tempting to a girl. 																											
+DIALOG_ASSIST_4_TXT_3		I can't accept it, I am on a moon diet for four weeks now.																											
+DIALOG_DOORMAN_1_LABEL		Did you see something suspicious?																											
+DIALOG_DOORMAN_1_TXT_1		Did you see something suspicious around here, Owlward?																											
+DIALOG_DOORMAN_1_TXT_2		Oh, officer, how kind of you to consider a humble member of the working class in your investigation.																											
+DIALOG_DOORMAN_1_TXT_3		Unfortunately I don't have anything to add, but it's a very sad day indeed for Owlward																											
+DIALOG_DOORMAN_1_TXT_4		Not only we witnessed this tragedy, but that mischievous pig ate my pack of donuts like the wild animal it is.																											
+DIALOG_DOORMAN_1_TXT_5		A very sad day indeed.																											
+DIALOG_DOORMAN_2_LABEL		I have a gossip for you.																											
+DIALOG_DOORMAN_2_TXT_1		I have a gossip for you.																											
+DIALOG_DOORMAN_2_TXT_2		OOOOooOOh, that makes me very, very excited!																											
+DIALOG_DOORMAN_2_TXT_3		So Owldini is not the rich, powerful magician it once were, huh?																											
+DIALOG_DOORMAN_2_TXT_4		Uhhh, this is so juicy, I have to tell my friends about it as soon as possible.																											
+DIALOG_DOORMAN_2_TXT_5		I have something to tell you as well, now that we are intimate, informative friends																											
+DIALOG_DOORMAN_2_TXT_6		I saw that girl Jowlana talking with Mr. Owler in the back alley a few days ago, she seemed very excited about some jewelry.																											
+DIALOG_DOORMAN_2_TXT_7		Might be useful for your journey, sir. Also, this might help too.																											
+DIALOG_DOORMAN_3_LABEL		Are you interested in some donuts?																											
+DIALOG_DOORMAN_3_TXT_1		Are you interested in some donuts?																											
+DIALOG_DOORMAN_3_TXT_2		That wouldn't be permitted, mister. 																											
+DIALOG_DOORMAN_3_TXT_3		If somebody from this job knows I've been eating food from the backstage, this day would get sadder and sadder.																											

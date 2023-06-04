@@ -13,27 +13,69 @@ MonoBehaviour:
   m_Name: Doorman
   m_EditorClassIdentifier: 
   dialogOptions:
-  - label: Ready to confess
-    stringId: DIALOG_MAGIC_1_LABEL
+  - label: Did you see something suspicious?
+    stringId: DIALOG_DOORMAN_1_LABEL
     availableIf: 0
-    unavailableIf: 2
-    availableAfter: 2
+    unavailableIf: 0
+    availableAfter: 1
     lines:
-    - label: Ready to confess
-      stringId: DIALOG_MAGIC_1_LABEL
+    - label: 
+      stringId: DIALOG_DOORMAN_1_TXT_1
       character: 0
-    - label: I did nothing!
-      stringId: "Eu n\xE3o fiz nada!!!"
-      character: 1
-  - label: I have donuts
-    stringId: DIALOG_MAGIC_2_LABEL
+    - label: 
+      stringId: DIALOG_DOORMAN_1_TXT_2
+      character: 3
+    - label: 
+      stringId: DIALOG_DOORMAN_1_TXT_3
+      character: 3
+    - label: 
+      stringId: DIALOG_DOORMAN_1_TXT_4
+      character: 3
+    - label: 
+      stringId: DIALOG_DOORMAN_1_TXT_5
+      character: 3
+    - label: 
+      stringId: DIALOG_DOORMAN_1_TXT_6
+      character: 3
+  - label: I have a gossip for you.
+    stringId: DIALOG_DOORMAN_2_LABEL
+    availableIf: 5
+    unavailableIf: 0
+    availableAfter: 6
+    lines:
+    - label: 
+      stringId: DIALOG_DOORMAN_2_TXT_1
+      character: 0
+    - label: 
+      stringId: DIALOG_DOORMAN_2_TXT_2
+      character: 3
+    - label: 
+      stringId: DIALOG_DOORMAN_2_TXT_3
+      character: 3
+    - label: 
+      stringId: DIALOG_DOORMAN_2_TXT_4
+      character: 3
+    - label: 
+      stringId: DIALOG_DOORMAN_2_TXT_5
+      character: 3
+    - label: 
+      stringId: DIALOG_DOORMAN_2_TXT_6
+      character: 3
+    - label: 
+      stringId: DIALOG_DOORMAN_2_TXT_7
+      character: 3
+  - label: Are you interested in some donuts?
+    stringId: DIALOG_DOORMAN_3_LABEL
     availableIf: 2
     unavailableIf: 0
     availableAfter: 0
     lines:
-    - label: I have donuts
-      stringId: I have donuts
+    - label: 
+      stringId: DIALOG_DOORMAN_3_TXT_1
       character: 0
-    - label: Good for you!
-      stringId: "Bom pra voc\xEA!"
-      character: 1
+    - label: 
+      stringId: DIALOG_DOORMAN_3_TXT_2
+      character: 3
+    - label: 
+      stringId: DIALOG_DOORMAN_3_TXT_3
+      character: 3

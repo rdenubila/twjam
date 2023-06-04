@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
 
     public Transform itemPanel;
     public GameObject itemPrefab;
+    public Notification notification;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,8 @@ public class GameController : MonoBehaviour
 
     public CharacterInfo GetCharacterByType(Character type) =>
         characterList.Where<CharacterInfo>(character => character.type == type).FirstOrDefault();
+
+    public bool HasGoal(Goals goalToCheck) => goalsAchieved.Contains(goalToCheck);
 
     public void AddGoal(Goals newGoal)
     {
@@ -39,5 +42,10 @@ public class GameController : MonoBehaviour
     private void AddItem(Goals item)
     {
         Instantiate(itemPrefab).GetComponent<ItemSprite>().InitItem(item, itemPanel);
+    }
+
+    public void ShowNotification(string stringId)
+    {
+        notification.InitNotification(stringId);
     }
 }

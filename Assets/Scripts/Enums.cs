@@ -4,6 +4,10 @@ public enum Goals
     ItemsKey,
     ItemsDonuts,
     ItemsHat,
+    DialogAssistantConfess,
+    DialogAssistantComplain,
+    DialogDoormanGossip,
+    ActionOpenPortal
 }
 
 public enum Character

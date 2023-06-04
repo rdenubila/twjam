@@ -13,27 +13,90 @@ MonoBehaviour:
   m_Name: Assistant
   m_EditorClassIdentifier: 
   dialogOptions:
-  - label: Ready to confess
-    stringId: DIALOG_MAGIC_1_LABEL
+  - label: Tell me what you know
+    stringId: DIALOG_ASSIST_1_LABEL
     availableIf: 0
-    unavailableIf: 2
-    availableAfter: 2
+    unavailableIf: 6
+    availableAfter: 5
     lines:
-    - label: Ready to confess
-      stringId: DIALOG_MAGIC_1_LABEL
+    - label: 
+      stringId: DIALOG_ASSIST_1_TXT_1
       character: 0
-    - label: I did nothing!
-      stringId: "Eu n\xE3o fiz nada!!!"
-      character: 1
-  - label: I have donuts
-    stringId: DIALOG_MAGIC_2_LABEL
+    - label: 
+      stringId: DIALOG_ASSIST_1_TXT_2
+      character: 2
+    - label: 
+      stringId: DIALOG_ASSIST_1_TXT_3
+      character: 2
+    - label: 
+      stringId: DIALOG_ASSIST_1_TXT_4
+      character: 2
+    - label: 
+      stringId: DIALOG_ASSIST_1_TXT_5
+      character: 2
+  - label: Those are some beautiful earrings
+    stringId: DIALOG_ASSIST_2_LABEL
+    availableIf: 0
+    unavailableIf: 6
+    availableAfter: 0
+    lines:
+    - label: 
+      stringId: DIALOG_ASSIST_2_TXT_1
+      character: 0
+    - label: 
+      stringId: DIALOG_ASSIST_2_TXT_2
+      character: 2
+    - label: 
+      stringId: DIALOG_ASSIST_2_TXT_3
+      character: 2
+    - label: 
+      stringId: DIALOG_ASSIST_2_TXT_4
+      character: 2
+  - label: Owlward told me everything
+    stringId: DIALOG_ASSIST_3_LABEL
+    availableIf: 6
+    unavailableIf: 0
+    availableAfter: 4
+    lines:
+    - label: 
+      stringId: DIALOG_ASSIST_3_TXT_1
+      character: 0
+    - label: 
+      stringId: DIALOG_ASSIST_3_TXT_2
+      character: 2
+    - label: 
+      stringId: DIALOG_ASSIST_3_TXT_3
+      character: 2
+    - label: 
+      stringId: DIALOG_ASSIST_3_TXT_4
+      character: 2
+    - label: 
+      stringId: DIALOG_ASSIST_3_TXT_5
+      character: 2
+    - label: 
+      stringId: DIALOG_ASSIST_3_TXT_6
+      character: 2
+    - label: 
+      stringId: DIALOG_ASSIST_3_TXT_7
+      character: 2
+    - label: 
+      stringId: DIALOG_ASSIST_3_TXT_8
+      character: 2
+    - label: 
+      stringId: DIALOG_ASSIST_3_TXT_9
+      character: 2
+  - label: Would you like some donuts?
+    stringId: DIALOG_ASSIST_4_LABEL
     availableIf: 2
     unavailableIf: 0
     availableAfter: 0
     lines:
-    - label: I have donuts
-      stringId: I have donuts
+    - label: 
+      stringId: DIALOG_ASSIST_4_TXT_1
       character: 0
-    - label: Good for you!
-      stringId: "Bom pra voc\xEA!"
-      character: 1
+    - label: 
+      stringId: DIALOG_ASSIST_4_TXT_2
+      character: 2
+    - label: 
+      stringId: DIALOG_ASSIST_4_TXT_3
+      character: 2
