@@ -16,6 +16,7 @@ MonoBehaviour:
   - label: Ready to confess
     stringId: DIALOG_MAGIC_1_LABEL
     availableIf: 0
+    unavailableIf: 2
     availableAfter: 2
     lines:
     - label: Ready to confess
@@ -23,4 +24,16 @@ MonoBehaviour:
       character: 0
     - label: I did nothing!
       stringId: "Eu n\xE3o fiz nada!!!"
+      character: 1
+  - label: I have donuts
+    stringId: DIALOG_MAGIC_2_LABEL
+    availableIf: 2
+    unavailableIf: 0
+    availableAfter: 0
+    lines:
+    - label: I have donuts
+      stringId: I have donuts
+      character: 0
+    - label: Good for you!
+      stringId: "Bom pra voc\xEA!"
       character: 1

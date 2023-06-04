@@ -1,4 +1,4 @@
-using System;
+using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -38,6 +38,11 @@ public class DialogController : MonoBehaviour
     public void InitDialog(DialogAsset asset)
     {
         currentAsset = asset;
+        InitDialog();
+    }
+
+    public void InitDialog()
+    {
         PopulateDialogOptions();
         ShowDialogSelectionPanel();
     }
@@ -47,7 +52,7 @@ public class DialogController : MonoBehaviour
         while (dialogSelectionPanel.transform.childCount > 0)
             DestroyImmediate(dialogSelectionPanel.transform.GetChild(0).gameObject);
 
-        foreach (DialogFields option in currentAsset.dialogOptions)
+        foreach (DialogFields option in FilteredDialogs())
         {
             Instantiate(dialogSelectionButtonPrefab)
                 .GetComponent<DialogSelectionButton>()
@@ -58,6 +63,16 @@ public class DialogController : MonoBehaviour
                 .GetComponent<DialogSelectionButton>()
                 .Init(dialogSelectionPanel.transform);
     }
+
+    DialogFields[] FilteredDialogs()
+    {
+        return currentAsset.dialogOptions.ToList().Where(dialog =>
+            (dialog.availableIf == Goals.None || PlayerHasGoal(dialog.availableIf))
+            && !PlayerHasGoal(dialog.unavailableIf)
+        ).ToArray();
+    }
+
+    bool PlayerHasGoal(Goals goalToCheck) => gameController.goalsAchieved.Contains(goalToCheck);
 
     public void InitDialogLine(DialogFields fields)
     {
@@ -97,7 +112,7 @@ public class DialogController : MonoBehaviour
             gameController.AddGoal(currentDialog.availableAfter);
 
         HideDialogPanel();
-        ShowDialogSelectionPanel();
+        InitDialog();
     }
 
 }
