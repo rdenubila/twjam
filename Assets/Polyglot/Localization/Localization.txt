@@ -4,5 +4,6 @@ LANGUAGE_EN	[LanguageName] in english	English	French	Spanish	German	Italian 	Por
 LANGUAGE_DIRECTION	ltr or rtl (text direction used by game code)	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	ltr	rtl	rtl	ltr
 																													
 Polyglot	100																												
-Credits		Game developed for the 1st Thoughtworks Game Jam with the theme 'Fantasy'					Jogo desenvolvido para a 1ª Game Jam da Thoughtworks com o tema 'Fantasia'																						
+GAME_JAM		Game developed for the 1st Thoughtworks Game Jam with the theme 'Fantasy'					Jogo desenvolvido para a 1ª Game Jam da Thoughtworks com o tema 'Fantasia'																						
+LEAVE_DIALOG		Leave conversation																											
 DIALOG_MAGIC_1_LABEL		Você já está pronto para confessar?																											

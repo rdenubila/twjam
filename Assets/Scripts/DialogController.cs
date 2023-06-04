@@ -14,22 +14,55 @@ public class DialogController : MonoBehaviour
     public TMP_Text dialogText;
     public TMP_Text nameText;
     DialogAsset currentAsset;
+    DialogFields currentDialog;
     int iDialogLine = 0;
-    int iDialogOption = 0;
+
+
+    public GameObject dialogSelectionPanel;
+    public GameObject dialogSelectionButtonPrefab;
+    public GameObject dialogSelectionExitButtonPrefab;
 
     void Start()
     {
         gameController = FindObjectOfType<GameController>();
+        HideDialogSelectionPanel();
         HideDialogPanel();
     }
 
+    public void HideDialogSelectionPanel() => dialogSelectionPanel.SetActive(false);
+    private void ShowDialogSelectionPanel() => dialogSelectionPanel.SetActive(true);
     private void HideDialogPanel() => dialogPanel.SetActive(false);
     private void ShowDialogPanel() => dialogPanel.SetActive(true);
-    public bool isDialogVisible() => dialogPanel.activeSelf;
+    public bool isDialogVisible() => dialogPanel.activeSelf || dialogSelectionPanel.activeSelf;
 
     public void InitDialog(DialogAsset asset)
     {
         currentAsset = asset;
+        PopulateDialogOptions();
+        ShowDialogSelectionPanel();
+    }
+
+    void PopulateDialogOptions()
+    {
+        while (dialogSelectionPanel.transform.childCount > 0)
+            DestroyImmediate(dialogSelectionPanel.transform.GetChild(0).gameObject);
+
+        foreach (DialogFields option in currentAsset.dialogOptions)
+        {
+            Instantiate(dialogSelectionButtonPrefab)
+                .GetComponent<DialogSelectionButton>()
+                .Init(option, dialogSelectionPanel.transform);
+        }
+
+        Instantiate(dialogSelectionExitButtonPrefab)
+                .GetComponent<DialogSelectionButton>()
+                .Init(dialogSelectionPanel.transform);
+    }
+
+    public void InitDialogLine(DialogFields fields)
+    {
+        HideDialogSelectionPanel();
+        currentDialog = fields;
         ShowDialogPanel();
         iDialogLine = 0;
         ShowDialogText(iDialogLine);
@@ -37,7 +70,7 @@ public class DialogController : MonoBehaviour
 
     void ShowDialogText(int i)
     {
-        DialogLines currentLine = currentAsset.dialogOptions[iDialogOption].lines[iDialogLine];
+        DialogLines currentLine = currentDialog.lines[iDialogLine];
         CharacterInfo currentChar = gameController.GetCharacterByType(currentLine.character);
 
         dialogText.text = Localization.Get(currentLine.stringId);
@@ -48,7 +81,7 @@ public class DialogController : MonoBehaviour
     public void NextDialogLine()
     {
         iDialogLine++;
-        if (iDialogLine < currentAsset.dialogOptions[iDialogOption].lines.Length)
+        if (iDialogLine < currentDialog.lines.Length)
         {
             ShowDialogText(iDialogLine);
         }
@@ -60,11 +93,11 @@ public class DialogController : MonoBehaviour
 
     void FinishDialog()
     {
-        DialogFields currentDialog = currentAsset.dialogOptions[iDialogOption];
         if (currentDialog.availableAfter != Goals.None)
             gameController.AddGoal(currentDialog.availableAfter);
 
         HideDialogPanel();
+        ShowDialogSelectionPanel();
     }
 
 }
