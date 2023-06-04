@@ -10,6 +10,7 @@ public class CharacterMovement : MonoBehaviour
     private Animator anim;
     private DialogController dialogController;
     [SerializeField] private DoorController transportCharTo;
+    [SerializeField] private ItemGrab grabItem;
     [SerializeField] private LayerMask clickableLayers;
 
     void Start()
@@ -37,9 +38,13 @@ public class CharacterMovement : MonoBehaviour
             if (transportCharTo)
             {
                 transportCharTo.EnterDoor(agent);
-                ResetClickActions();
-
             }
+            if (grabItem)
+            {
+                grabItem.GrabItem();
+            }
+            ResetClickActions();
+
         }
     }
 
@@ -56,6 +61,10 @@ public class CharacterMovement : MonoBehaviour
 
                 if (hit.collider.CompareTag("Door"))
                     OnDoorClick(hit.collider.gameObject);
+
+                if (hit.collider.CompareTag("Item"))
+                    grabItem = hit.collider.gameObject.GetComponent<ItemGrab>();
+
                 if (hit.collider.CompareTag("NPC"))
                     StartDialogWithNPC(hit.collider.gameObject);
 
@@ -69,6 +78,7 @@ public class CharacterMovement : MonoBehaviour
     {
         agent.ResetPath();
         transportCharTo = null;
+        grabItem = null;
     }
 
     void OnDoorClick(GameObject obj)

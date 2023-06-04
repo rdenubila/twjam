@@ -9,6 +9,9 @@ public class GameController : MonoBehaviour
     public List<CharacterInfo> characterList;
     public GameObject[] disableOnStart;
 
+    public Transform itemPanel;
+    public GameObject itemPrefab;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,5 +22,22 @@ public class GameController : MonoBehaviour
     public CharacterInfo GetCharacterByType(Character type) =>
         characterList.Where<CharacterInfo>(character => character.type == type).FirstOrDefault();
 
-    public void AddGoal(Goals newGoal) => goalsAchieved.Add(newGoal);
+    public void AddGoal(Goals newGoal)
+    {
+        goalsAchieved.Add(newGoal);
+
+        switch (newGoal)
+        {
+            case Goals.ItemsKey:
+            case Goals.ItemsDonuts:
+            case Goals.ItemsHat:
+                AddItem(newGoal);
+                break;
+        }
+    }
+
+    private void AddItem(Goals item)
+    {
+        Instantiate(itemPrefab).GetComponent<ItemSprite>().InitItem(item, itemPanel);
+    }
 }

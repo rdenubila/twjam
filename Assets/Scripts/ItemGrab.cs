@@ -2,23 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogTrigger : MonoBehaviour
+public class ItemGrab : MonoBehaviour
 {
-
-    [SerializeField] DialogAsset dialogAsset;
-    DialogController dialogController;
+    public Goals type;
     public GameObject interactIcon;
     private Transform player;
     public float minDistance = 3.5f;
 
     void Start()
     {
-        dialogController = FindObjectOfType<DialogController>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    void showIcon() => interactIcon.SetActive(true);
-    void hideIcon() => interactIcon.SetActive(false);
     float distanceToPlayer() => Vector3.Distance(player.position, transform.position);
     bool isNearToPlayer() => distanceToPlayer() < minDistance;
 
@@ -27,10 +22,9 @@ public class DialogTrigger : MonoBehaviour
         interactIcon.SetActive(isNearToPlayer());
     }
 
-    public void InitDialog()
+    public void GrabItem()
     {
-        if (isNearToPlayer())
-            dialogController.InitDialog(dialogAsset);
+        FindObjectOfType<GameController>().AddGoal(type);
+        Destroy(gameObject);
     }
-
 }
