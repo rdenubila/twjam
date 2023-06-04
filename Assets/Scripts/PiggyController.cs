@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 public enum PiggyStates
 {
@@ -13,15 +14,22 @@ public class PiggyController : MonoBehaviour
 {
 
     private NavMeshAgent agent;
+    private GameController _gc;
     public PiggyStates currentState = PiggyStates.patrol;
     public List<Transform> patrolPoints;
 
     private float normalSpeed;
     private float normalAcceleration;
     private Transform player;
+    public GameObject donutPrefab;
+    public GameObject interactIcon;
+    public UnityEvent OnEat;
+
+    public float minDistance = 3.5f;
 
     void Awake()
     {
+        _gc = FindObjectOfType<GameController>();
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
@@ -34,9 +42,18 @@ public class PiggyController : MonoBehaviour
     }
 
     bool ReachedDestination() => Vector3.Distance(transform.position, agent.destination) <= agent.stoppingDistance;
+    bool PlayerHasDonuts() => _gc.HasGoal(Goals.ItemsDonuts);
+    bool isEating() => currentState == PiggyStates.eating;
+    float distanceToPlayer() => Vector3.Distance(player.position, transform.position);
+    bool isNearToPlayer() => distanceToPlayer() < minDistance;
+
+    public bool CanFeed() => PlayerHasDonuts() && !isEating() && isNearToPlayer();
 
     void Update()
     {
+
+        interactIcon.SetActive(CanFeed());
+
         switch (currentState)
         {
             case PiggyStates.patrol:
@@ -68,6 +85,9 @@ public class PiggyController : MonoBehaviour
             agent.ResetPath();
             agent.velocity = agent.velocity * .2f;
             MoveToNextPatrolPoint();
+            player.GetComponent<CharacterMovement>().MoveTo(
+                player.position + GetForwardDirectionRelativeTo(player, transform) * 3f
+            );
         }
         else
         {
@@ -84,9 +104,36 @@ public class PiggyController : MonoBehaviour
 
     public void AttackPlayer()
     {
-        currentState = PiggyStates.attack;
-        agent.speed = 50;
-        agent.acceleration = 50;
-        agent.SetDestination(player.position);
+        if (!isEating())
+        {
+            currentState = PiggyStates.attack;
+            agent.speed = 50;
+            agent.acceleration = 50;
+            agent.SetDestination(player.position);
+        }
+    }
+
+    public void Feed()
+    {
+        if (CanFeed())
+        {
+            GameObject donut = Instantiate(
+                donutPrefab,
+                player.position + GetForwardDirectionRelativeTo(transform, player),
+                Quaternion.Euler(-90f, 0, 0)
+                );
+            currentState = PiggyStates.eating;
+            OnEat?.Invoke();
+
+            agent.stoppingDistance = 0.15f;
+            agent.SetDestination(donut.transform.position);
+        }
+    }
+
+    public Vector3 GetForwardDirectionRelativeTo(Transform targetObject, Transform referenceObject)
+    {
+        Vector3 direction = targetObject.position - referenceObject.position;
+        direction.Normalize();
+        return direction;
     }
 }
