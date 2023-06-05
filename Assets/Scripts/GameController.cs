@@ -1,6 +1,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -50,6 +51,10 @@ public class GameController : MonoBehaviour
             case Goals.ActionOpenPortal:
                 portalObj.SetActive(true);
                 break;
+            case Goals.EndGameGoBack:
+            case Goals.EndGameStay:
+                SceneManager.LoadScene("EndGame");
+                break;
         }
     }
 
@@ -65,3 +70,4 @@ public class GameController : MonoBehaviour
         notification.InitNotification(stringId);
     }
 }
+

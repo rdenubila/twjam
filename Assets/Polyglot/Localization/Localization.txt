@@ -6,18 +6,18 @@ LANGUAGE_DIRECTION	ltr or rtl (text direction used by game code)	ltr	ltr	ltr	ltr
 Polyglot	100																												
 GAME_JAM		Game developed for the 1st Thoughtworks Game Jam with the theme 'Fantasy'					Jogo desenvolvido para a 1ª Game Jam da Thoughtworks com o tema 'Fantasia'																						
 LEAVE_DIALOG		Leave conversation					Deixar a conversa																						
-DIALOG_CHIEF_1_LABEL		Answer phone																											
-DIALOG_CHIEF_1_TXT_1		Mr. Owlmes, it's time to get back in action.																											
-DIALOG_CHIEF_1_TXT_2		I need you to solve a new case about the disappearance of Martin Owler																											
-DIALOG_CHIEF_1_TXT_3		you probably heard about him																											
-DIALOG_CHIEF_1_TXT_4		and I need it fast, the whole town is a big mess right now.																											
-DIALOG_CHIEF_1_TXT_5		I'm pretty sure it's going to be as easy as flying, but here is some info:																											
-DIALOG_CHIEF_1_TXT_6		there was a magic show happening in the theater when Marty-fly volunteered for a trick.																											
-DIALOG_CHIEF_1_TXT_7		He was supposed to disappear and then appear again																											
-DIALOG_CHIEF_1_TXT_8		But, to the astonishment of the magician himself and his crowd, the man was replaced by a very weird looking pig																											
-DIALOG_CHIEF_1_TXT_9		There is something rotten about this, but I know you can handle it, Sher.																											
-DIALOG_CHIEF_1_TXT_10		Try to be professional, okay?																											
-DIALOG_MAGIC_1_LABEL		Tell me where the man is																											
+DIALOG_CHIEF_1_LABEL		Answer phone					Atender o telefone																						
+DIALOG_CHIEF_1_TXT_1		Mr. Owlmes, it's time to get back in action.					Owlmes, tá na hora de voltar pra ativa.																						
+DIALOG_CHIEF_1_TXT_2		I need you to solve a new case about the disappearance of Martin Owler					Eu preciso que você resolva um novo caso, aquele pepino do desaparecimento do Martin Owler 																						
+DIALOG_CHIEF_1_TXT_3		you probably heard about him					você com certeza já ouviu falar do figurão																						
+DIALOG_CHIEF_1_TXT_4		and I need it fast, the whole town is a big mess right now.					e preciso disso pra ontem, a vila toda tá um furdunço nesse momento.																						
+DIALOG_CHIEF_1_TXT_5		I'm pretty sure it's going to be as easy as flying, but here is some info:					Tenho certeza que vai ser fichinha pra você, mas seguem os pormenores:																						
+DIALOG_CHIEF_1_TXT_6		there was a magic show happening in the theater when Marty-fly volunteered for a trick.					tava acontecendo um show de mágica no teatro quando o Martinho resolveu ser ousado e se voluntariar pra participar de um truque.																						
+DIALOG_CHIEF_1_TXT_7		He was supposed to disappear and then appear again					Era pra ele ter desaparecido e aparecido de novo logo depois																						
+DIALOG_CHIEF_1_TXT_8		But, to the astonishment of the magician himself and his crowd, the man was replaced by a very weird looking pig					Mas, pro espanto do próprio mágico e do povão, o cara foi substituído por um porco bem esquisito.																						
+DIALOG_CHIEF_1_TXT_9		There is something rotten about this, but I know you can handle it, Sher.					Isso tá me cheirando muito podre, mas eu sei que você dá conta, Xeróqui																						
+DIALOG_CHIEF_1_TXT_10		Try to be professional, okay?					Tenta ser um pouquinho profissional, tá bom?																						
+DIALOG_MAGIC_1_LABEL		Tell me where the man is					Me fala onde ele está!																						
 DIALOG_MAGIC_1_TXT_1		Just tell me where the man is and we can wrap this up quickly.					Só me fala onde tá o cabra que a gente resolve isso aqui rapidinho.																						
 DIALOG_MAGIC_1_TXT_2		You can't talk to me like this! This situation is unacceptable!					Você acha que tá falando com quem? Isso aqui é um absurdo!																						
 DIALOG_MAGIC_1_TXT_3		I am the great Owldini, the most brilliant magician this world has ever seen, the one who never made a foul trick in his entire existence.					Eu sou o grande Owldini, o mágico mais brilhante que esse mundo já conheceu, aquele que nunca fez um truque sujo em toda a sua existência.																						
@@ -83,25 +83,27 @@ DIALOG_DOORMAN_2_TXT_7		Might be useful for your journey, sir.					Não sei, vai
 DIALOG_DOORMAN_3_LABEL		Are you interested in some donuts?					Tá afim de um donut?																						
 DIALOG_DOORMAN_3_TXT_1		Are you interested in some donuts?					Tá afim de um donut?																						
 DIALOG_DOORMAN_3_TXT_2		That wouldn't be permitted, mister. 					Isso é contra as regras, dotô.																						
-ITEM_COLLECTED		You've collected an item																											
-DIALOG_CEO_1_LABEL		Finally I've found you.																											
-DIALOG_CEO_1_TXT_1		Finally I've found you. What the heck?																											
-DIALOG_CEO_1_TXT_2		Hello, Mr. Owlmes, it's unfortunate that we had to meet in such conditions.																											
-DIALOG_CEO_1_TXT_3		I know I probably gave you a lot of work to do, but I just needed some rest from my very demanding job and this was the perfect opportunity to do it.																											
-DIALOG_CEO_1_TXT_4		I feel the energy of a spiritual calling, living with my little piggies have been the most revealing time I've ever had.																											
-DIALOG_CEO_1_TXT_5		This place is so peaceful, I think I'm experiencing what people call the ego death. Pretty awesome, huh?																											
-DIALOG_CEO_2_LABEL		I'm gonna have to take you back																											
-DIALOG_CEO_2_TXT_1		Everybody is looking for you, I'm gonna have to take you back.																											
-DIALOG_CEO_2_TXT_2		Well, I confess it makes me a little emotional to know that people actually miss me.																											
-DIALOG_CEO_2_TXT_3		My life is always so gray and busy, I really don't know what love is anymore.																											
-DIALOG_CEO_2_TXT_4		Nothing that a speedo and some snaring wouldn't fix, apparently, right?																											
-DIALOG_CEO_2_TXT_5		The universe is always trying to put everything in its place.																											
-DIALOG_CEO_2_TXT_6		But okay, your aura is so clean that it convinced me, I'm coming back with you.																											
-DIALOG_CEO_3_LABEL		I'm going to stay here with you																											
-DIALOG_CEO_3_TXT_1		I think I'm going to stay here with you																											
-DIALOG_CEO_3_TXT_2		Then it's settled, prepare yourself to be the new siddhartha, Mr. Owlmes																											
-DIALOG_CEO_3_TXT_3		As we walk through the train of enlightenment and in the meantime, we also feed this hungry pigs with some very disgusting swill.																											
-DIALOG_CEO_3_TXT_4		Welcome aboard!																											
+ITEM_COLLECTED		You've collected an item					Você coletou um item																						
+DIALOG_CEO_1_LABEL		Finally I've found you.					Finalmente te encontrei																						
+DIALOG_CEO_1_TXT_1		Finally I've found you. What the heck?					Finalmente te encontrei. Que presepada, hein?																						
+DIALOG_CEO_1_TXT_2		Hello, Mr. Owlmes, it's unfortunate that we had to meet in such conditions.					Você adquiriu um item																						
+DIALOG_CEO_1_TXT_3		I know I probably gave you a lot of work to do, but I just needed some rest from my very demanding job and this was the perfect opportunity to do it.					Eu sei que eu dei o maior trabalho pra você, mas eu precisava relaxar daquele emprego que estava sugando meu sangue e essa foi a oportunidade perfeita pra isso.																						
+DIALOG_CEO_1_TXT_4		I feel the energy of a spiritual calling, living with my little piggies have been the most revealing time I've ever had.					 Eu sinto a energia desse chamado espiritual, viver aqui com os meus porquinhos tem sido a experiência mais transcendental que já tive.																						
+DIALOG_CEO_1_TXT_5		This place is so peaceful, I think I'm experiencing what people call the ego death. Pretty awesome, huh?					Esse lugar é tão calmo, acho que estou finalmente vivendo o que chamam da morte do ego. Massa demais, né?																						
+DIALOG_CEO_2_LABEL		I'm gonna have to take you back					Vou te levar de volta																						
+DIALOG_CEO_2_TXT_1		Everybody is looking for you, I'm gonna have to take you back.					Tá todo mundo te procurando, não tem como eu não te levar de volta.																						
+DIALOG_CEO_2_TXT_2		Well, I confess it makes me a little emotional to know that people actually miss me.					Bom, eu confesso que fico um pouco emocionado sabendo que as pessoas realmente sentem a minha falta.																						
+DIALOG_CEO_2_TXT_3		My life is always so gray and busy, I really don't know what love is anymore.					A minha vida tem sido tão cinzenta e corrida, acho que já não sei mais o que é o amor.																						
+DIALOG_CEO_2_TXT_4		Nothing that a speedo and some snaring wouldn't fix, apparently, right?					Mas nada que uma sunguinha e uma armação aparentemente não resolvam, né?																						
+DIALOG_CEO_2_TXT_5		The universe is always trying to put everything in its place.					O universo está sempre tentando colocar as coisas em seu devido lugar.																						
+DIALOG_CEO_2_TXT_6		But okay, your aura is so clean that it convinced me, I'm coming back with you.					Mas tá bom, a sua aura é tão pura que ela me convenceu. Eu volto com você.																						
+DIALOG_CEO_3_LABEL		I'm going to stay here with you					Vou ficar aqui com você																						
+DIALOG_CEO_3_TXT_1		I think I'm going to stay here with you					Acho que vou ficar aqui com você.																						
+DIALOG_CEO_3_TXT_2		Then it's settled, prepare yourself to be the new siddhartha, Mr. Owlmes					Então tá fechado, se prepara pra virar o buda, meu chapa																						
+DIALOG_CEO_3_TXT_3		As we walk through the train of enlightenment and in the meantime, we also feed this hungry pigs with some very disgusting swill.					enquanto a gente trilha o caminho da iluminação e, ao mesmo tempo, dá essa lavagem nojenta pra esses porcos famintos.																						
+DIALOG_CEO_3_TXT_4		Welcome aboard!					Bem-vindo a bordo!																						
 DIALOG_DOORMAN_3_TXT_3		If somebody from this job knows I've been eating food from the backstage, this day would get sadder and sadder.					Se alguém da diretoria souber que eu tô comendo comida do camarim, esse dia ficaria pior do que já tá.																						
 DOOR_LOCKED		This door is locked					A porta está trancada																						
 PIGGY_PROTECT_ITEM		Piggy is protecting this item					O porquinho está protegendo este item																						
+BACK_MENU		Back to menu					Voltar ao menu																						
+YOU_WIN		You win					Você venceu!																						
